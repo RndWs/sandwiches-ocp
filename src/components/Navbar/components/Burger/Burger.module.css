@@ -1,0 +1,50 @@
+
+/* Burger icon  */
+
+#burgerContainer {
+  /* border: 1px solid orange; */
+}
+
+.hamburgerIcon {
+  cursor: pointer;
+}
+
+.hamburgerIcon rect {
+  transition: all 0.3s ease-in-out;
+  fill: gray;
+  fill: var(--base-color);
+}
+
+.hamburgerIconActive rect {
+  transition: all 0.3s ease-in-out;
+  fill: black;
+  fill: var(--icon-active-color);
+  fill: rgb(90, 190, 250);
+}
+
+.hamburgerIcon:hover rect {
+  transition: all 0.1s ease-in-out;
+  fill: black;
+  fill: var(--secondary-color);
+}
+
+.hamburgerIconActive .top,
+.hamburgerIconActive .bottom {
+  transform-origin: center;
+}
+
+.hamburgerIconActive .top {
+  transform: rotate(45deg) translate(0, calc(var(--icon-translation-size) * 1px));
+
+  border: 1px solid orange;
+}
+
+.hamburgerIconActive .bottom {
+  transform: rotate(-45deg) translate(0, calc(var(--icon-translation-size) * -1px));
+}
+
+.hamburgerIconActive .middle {
+  opacity: 0;
+}
+
+/* Burger icon - end */

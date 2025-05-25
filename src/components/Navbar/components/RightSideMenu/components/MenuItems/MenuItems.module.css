@@ -1,0 +1,14 @@
+
+.active {
+  color: rgb(170, 222, 255) !important;
+  color: var(--secondary-color) !important;
+  border-bottom: 2px solid rgb(0, 132, 214);
+}
+
+.desktopActive {
+  color: rgb(0, 157, 255) !important;
+  border-bottom: 2px solid rgb(0, 157, 255);
+}
+.mobileActive {
+  color: rgb(215, 140, 0) !important;
+}

@@ -1,0 +1,13 @@
+
+.rightSide {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  /* border: 1px solid green; */
+
+  
+}

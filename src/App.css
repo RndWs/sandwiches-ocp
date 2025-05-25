@@ -1,0 +1,94 @@
+
+#root {
+
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+
+
+  --base-color: rgb(115, 115, 115);
+  --secondary-color: hsl(39, 100%, 50%);
+  --base-border-color: orange;
+
+  --gray-superlight: rgb(218, 218, 218);
+  --gray-light: rgb(187, 187, 187);
+  --gray-medium: rgb(187, 187, 187);
+  --gray-dark: rgb(115, 115, 115);
+
+  /* Burger */
+  --icon-active-color: #2ed573;
+  --icon-size: 48;
+  --icon-bar-size: 8;
+  --icon-translation-size: calc((var(--icon-size) - var(--icon-bar-size)) / 2);
+
+}
+
+body {
+  background-color: #3a3d4a;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* 
+  scroll bar 
+*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 30%);
+  border: 1px solid red;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 60%);
+  /* border-radius: 0px 0px 5px 5px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 90%);
+}
+
+/* 
+  scroll bar - end
+*/
+
+
+/* -------------------------------------------------------------------------- */
+
+/* 
+  WRAP
+*/
+.wrap {
+  background-color: transparent;
+  /* border: 1px solid red; */
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+
+  background-color: #3a3d4a;
+  color: #fff;
+
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  min-height: 100vh;
+
+  --borders: #707070;
+}
+
+/* 
+  WRAP - end
+*/
+
+/* -------------------------------------------------------------------------- */

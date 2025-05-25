@@ -1,0 +1,19 @@
+
+.navBar {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  color: rgb(115, 115, 115);
+  color: white;
+  border-top: 1px solid var(--gray-light);
+  border-bottom: 1px solid var(--gray-light);
+  margin: 0px;
+  padding: 5px 20px;
+  position: relative;
+
+}
