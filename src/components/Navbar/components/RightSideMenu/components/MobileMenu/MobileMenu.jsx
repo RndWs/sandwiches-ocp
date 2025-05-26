@@ -1,14 +1,18 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Burger from "../../../Burger/Burger";
 import MenuItems from "../MenuItems/MenuItems";
 
 import styles from "./MobileMenu.module.css";
 
-const MobileMenu = ( { activeIdx, setActiveIdx } ) => {
+const MobileMenu = ({ activeIdx, setActiveIdx }) => {
   // hooks
   const [sideMenuActive, setSideMenuActive] = useState(false);
+
+  useEffect(() => {
+    setSideMenuActive(false);
+  }, [activeIdx]);
 
   return (
     <>
