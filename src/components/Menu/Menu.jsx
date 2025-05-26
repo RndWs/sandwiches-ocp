@@ -1,8 +1,12 @@
 
+import usePageNameToTitle from "../../hooks/usePageNameToTitle";
+import styles from './Menu.module.css';
 
 function Menu() {
+  usePageNameToTitle("Menu");
+
   return (
-    <>Menu</>
+    <div id={styles.page_title}>Menu</div>
   )
 }
 

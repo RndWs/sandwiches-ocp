@@ -14,9 +14,7 @@ const BASE_URL = getUrl();
 
 import componentMap from "./functions/componentLoader";
 
-// array of object defyning 
-// the menu 
-// and the components to load for the BrowserRouter 
+// array of object defyning the menu and the components to load for the BrowserRouter 
 import menuArray from "./menu-setup/menuArray";
 
 // css

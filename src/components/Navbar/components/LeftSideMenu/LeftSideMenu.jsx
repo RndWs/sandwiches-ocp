@@ -12,23 +12,30 @@ import getUrl from "../../../../functions/getUrl";
 import styles from "./LeftSideMenu.module.css";
 
 
-const LeftSideMenu = () => {
-
+const LeftSideMenu = ({ setActiveIdx }) => {
   // use custom hooks
   const width = useWindowWidth();
 
   const BASE_URL = getUrl();
   // console.log(`BASE_URL: ${BASE_URL}`);
 
+  const handleClick = () => {
+    setActiveIdx(0);
+  };
+
   return (
     <div className={styles.leftSide}>
       <div id={styles.logo}>
         <div id={styles.logoLink}>
           <div className={styles.link}>
-            <Link to={BASE_URL + "/"}>Sand</Link>
+            <Link to={BASE_URL + "/"} onClick={() => handleClick()}>
+              Sand
+            </Link>
             <span>{width}px</span>
           </div>
-          <Link to={BASE_URL + "/"}>Wiches</Link>
+          <Link to={BASE_URL + "/"} onClick={() => handleClick()}>
+            Wiches
+          </Link>
         </div>
       </div>
     </div>
