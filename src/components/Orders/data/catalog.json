@@ -1,0 +1,82 @@
+
+[
+  {
+      "id": 1,
+      "type": "laptop",
+      "name": "Laptop",
+      "description": "ASUS TUF F17 Gaming Laptop - 17.3” 2K QHD 240Hz Display, Intel i7-13620H(up to 4.9 GHz), 64GB DDR5, 1TB SSD, NVIDIA GeForce RTX 4070, Wi-Fi 6, RGB Backlit Keyboard, Windows 11 Pro, MS Office Pro",
+      "caracteristics": {
+        "Brand": "ASUS",
+        "Model Name":	"TUF Gaming A15",
+        "Screen Size": "15.6 Inches",
+        "Color":	"Graphite Black",
+        "Hard Disk Size": "512 GB",
+        "CPU Model": "Ryzen 5",
+        "Ram Memory Installed Size": "8 GB",
+        "Operating System":	"Windows 11 Home",
+        "Special Feature": "HD Audio, Spill resistant, High Definition Audio, TrackPoint, Anti Glare Coating",
+        "Graphics Card Description": "Dedicated"
+      },
+      "aboutThisItem": [
+        "Powerful Performance: The ASUS TUF F17 Gaming Laptop features an Intel i7-13620H processor, with a turbo frequency of up to 4.9 GHz, ensuring seamless gaming and multitasking experiences for the most demanding users.",
+        "Immersive Display: Enjoy stunning visuals on the 17.3” 2K QHD display with a 240Hz refresh rate, providing ultra-smooth gameplay and vibrant colors, making this ASUS TUF 17 gaming laptop perfect for gamers seeking exceptional graphics.",
+        "Next-Gen Graphics: Equipped with the NVIDIA GeForce RTX 4070 GPU and 12GB GDDR6 video memory, this RTX 4070 gaming laptop delivers high-performance graphics and supports advanced gaming technologies like ray tracing for an immersive gaming experience.",
+        "Enhanced Storage and Memory: With an impressive 64GB DDR5 RAM and a massive 4TB SSD, the ASUS TUF F17 ensures rapid loading times and ample storage for games, applications, and media, catering to serious gamers and content creators alike.",
+        "Versatile Connectivity and Features: This gaming laptop includes Wi-Fi 6 for fast internet connectivity, multiple USB ports, and an RGB backlit keyboard, providing gamers with essential tools and aesthetics for an optimal gaming setup."
+      ],
+      "price": 746.99,
+      "inStock": true
+  },
+  {
+      "id": 2,
+      "type": "smartphone",
+      "name": "Smartphone",
+      "manufacturer": "SAMSUNG",
+      "Operating System": [
+        "Android 14",
+        "One UI"
+      ],
+      "Ram Memory Installed Size": "4 GB",
+      "CPU Speed": "2.4 GHz,",
+      "Memory Storage Capacity": "128 GB",
+      "Screen Size": "6.7 Inches",
+      "Resolution": "1880 x 2340",
+      "Model Name": "Galaxy A16",
+      "Wireless Carrier": "Unlocked for All Carriers",
+      "Cellular Technology": "5G",
+      "features": [
+      "5G",
+      "OLED Display",
+      "128GB Storage"
+    ],
+      "price": 799.99,
+      "inStock": false
+  },
+  {
+      "id": 3,
+      "type": "tablet",
+      "name": "Tablet",
+      "screenSize": "10.5 inches",
+      "batteryLife": "12 hours",
+      "price": 499.99,
+      "inStock": true
+  },
+  {
+    "id": 4,
+    "type": "laptop",
+    "name": "Laptop",
+    "description": "Lenovo V15 Laptop, 15.6” FHD Display, AMD Ryzen 5 5500U Hexa-core Processor (Beat i7-1065G7), 40GB RAM, 2TB SSD, RJ-45, Numeric Keypad, Wi-Fi, Windows 11 Pro, Black, Additional 1 Yr ADP",
+    "Brand": "Lenovo",
+    "Model Name": "Lenovo V15 G2 ALC",
+    "Screen Size": "15.6 Inches",
+    "Color": "Black",
+    "Hard Disk Size": "2 TB",
+    "CPU Model": "Ryzen 5",
+    "Ram Memory Installed Size": "40 GB",
+    "Operating System": "Windows 11 Home",
+    "Special Feature": "Numeric Keypad",
+    "Graphics Card Description": "Integrated",
+    "price": 645.05,
+    "inStock": true
+  }
+]

@@ -1,10 +1,10 @@
 
-import usePageNameToTitle from "../../hooks/usePageNameToTitle";
+import useTitle from "../../hooks/useTitle";
 import styles from "./NotFound.module.css";
 
 function NotFound() {
 
-  usePageNameToTitle("");
+  useTitle("");
 
   return <div id={styles.page_title}>NotFound</div>;
 }

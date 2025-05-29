@@ -1,0 +1,23 @@
+
+.tabletCard {
+  border: 2px solid purple;
+  margin: 10px;
+  padding: 10px;
+  
+  .buttonSection {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 6px 10px;
+      margin: 10px 1px 0;
+      background-color: orange;
+      border: 1px solid #ff8100;
+      cursor: pointer;
+    
+      color: #fff;
+    }
+  }
+}

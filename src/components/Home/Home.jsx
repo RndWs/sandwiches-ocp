@@ -1,10 +1,10 @@
 
-import usePageNameToTitle from '../../hooks/usePageNameToTitle';
+import useTitle from "../../hooks/useTitle";
 import styles from "./Home.module.css";
 
 const Home = () => {
   
-  usePageNameToTitle("Home");
+  useTitle("Home");
 
 
   return (
